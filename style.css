@@ -24,3 +24,9 @@ body {
     background-color: var(--white);
     position: relative;
 }
+@media screen and (max-width: 1600px) {
+    .chat-container {
+        max-width: unset;
+        height: 100vh;
+    }
+}
