@@ -18,7 +18,7 @@ body {
     left: 3px;
 }
 .left-sidebar-sign-up-form h1 {
-    background: linear-gradient(90deg, #0078d4, #c218ec);
+    background: linear-gradient(90deg, #9C27B0, #ec5c18);
    -webkit-background-clip: text;
    color: transparent;
    margin-left: 3px;
@@ -99,4 +99,3 @@ hr {
         left: -8px;
     }
   }
-  
