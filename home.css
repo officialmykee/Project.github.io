@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+.left-side-bar {
+    height: 647px;
+    width: 30%;
+    position: relative;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+img.left-side-profile-picture {
+     width: 53px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-top: 15px;
+     margin-right: 12px;
+}
+
+hr.divder {
+    top: 3px;
+    position: relative;
+}
+p.social-networkee {
+    position: absolute;
+    background: linear-gradient(90deg, #0078d4, #c218ec);
+    -webkit-background-clip: text;
+    color: transparent;
+    left: 52px;
+    top: 17px;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px;
+}
