@@ -1,0 +1,86 @@
+body, html {
+    overflow-x: hidden; /* Prevents horizontal scrolling of the whole page */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0e4e412;
+    font-family: sans-serif;
+}
+.left-sidebar-sign-up-form {
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    right: 220px;
+    position: relative;
+    top: 40px;
+    overflow: hidden; /* Prevent any internal scrollbars if needed */
+    touch-action: none;
+}
+.left-sidebar-sign-up-form h1 {
+    background: linear-gradient(90deg, #0078d4, #c218ec);
+   -webkit-background-clip: text;
+   color: transparent;
+ FONT-SIZE: 20PX;
+}
+.input-box {
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    color: #fff;
+    width: 100%;
+    border-radius: 0px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn {
+    background-color: #1c8adb;
+}
+.facebook-btn {
+    background-color: #21afde;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    margin-top: 20px;
+    width: 180px;
+}
+.or {
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+/* password check css */
+.toggle-password-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #fff;
+    color: #2175de;
+    cursor: pointer;
+    font-size: 14px;
+}
+@media (max-width: 750px) {
+    /* In mobile view, the button may take a different style or position */
+    .left-sidebar-sign-up-form {
+        position: fixed;
+        right: -11px;
+        top: 80px;
+        width: 300px;    /* or your desired width */
+        height: 100vh;   /* Make it take the full height */
+        z-index: 1000;
+        overflow: hidden; /* Prevent any internal scrollbars if needed */
+        touch-action: none;  /* Prevents any touch interaction (like swipe) from affecting the position */
+    }
+}
