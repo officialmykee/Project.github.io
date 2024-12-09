@@ -38,3 +38,13 @@ p.social-networkee {
     font-family: sans-serif;
     padding: 10px;
 }
+i.ri-edit-box-line {
+    font-size: 21px;
+}
+button.side-bt-btn {
+    position: absolute;
+    left: 254px;
+    top: 30px;
+    border: none;
+    background: #fff;
+}
